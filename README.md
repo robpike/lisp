@@ -2,7 +2,7 @@
 
 This is an implementation of the language defined, with sublime concision, in the first few pages of the LISP 1.5 Programmer's Manual by McCarthy, Abrahams, Edwards, Hart, and Levin, from MIT in 1962.
 
-It is a pedagogical experiment to see just how well the interpreter (actually `EVALQOUTE/APPLY`) defined on page 13 of that book really works. The answer is: perfectly, of course.
+It is a pedagogical experiment to see just how well the interpreter (actually `EVALQUOTE/APPLY`) defined on page 13 of that book really works. The answer is: perfectly, of course.
 
 This program was a joy to put together. Its purpose was fun and education, and in no way to create a modern or even realistic Lisp implementation. The goal was to turn that marvelous page 13 into a working interpreter using clean, direct Go code.
 
