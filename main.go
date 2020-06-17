@@ -107,7 +107,7 @@ func handler(context *lisp1_5.Context, parser *lisp1_5.Parser) {
 		case lisp1_5.Error:
 			fmt.Fprintln(os.Stderr, e)
 			parser.SkipToEndOfLine()
-			fmt.Fprintf(os.Stderr, context.StackTrace())
+			fmt.Fprint(os.Stderr, context.StackTrace())
 			context.PopStack()
 		default:
 			panic(e)
