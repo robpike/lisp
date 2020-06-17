@@ -37,7 +37,7 @@ Identifiers must be alphanumeric. The addition function is `add` not `+`.
 
 ### Built-in functions.
 
-I never liked to type `DIFFERENCE` or `QUOTIENT`, so arithmetic uses the much shorter `add` `sub` `mul` `div` `rem`, and the comparision operators come from Fortran (why not?): `eq` `ne` `lt` `le` `gt` `ge` `ne`, as well as `and` and `or`.
+I never liked to type `DIFFERENCE` or `QUOTIENT`, so arithmetic uses the much shorter `add` `sub` `mul` `div` `rem`, and the comparision operators come from Fortran (why not?): `eq` `ne` `lt` `le` `gt` `ge`, as well as `and` and `or`.
 
 Other builtin functions are: `apply` `atom`, `car`, `cdr`, `cond`, `cons`, `list`, `null`, and `quote`.
 
