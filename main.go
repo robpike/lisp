@@ -7,7 +7,7 @@
 // Edwards, Hart, and Levin, from MIT in 1962.
 //
 // It is a pedagogical experiment to see just how well the interpreter (actually
-// EVALQOUTE/APPLY) defined on page 13 of that book really works. The answer is:
+// EVALQUOTE/APPLY) defined on page 13 of that book really works. The answer is:
 // perfectly, of course.
 //
 // This program's purpose was fun and education, and in no way to create a modern
@@ -18,7 +18,7 @@
 // the Lisp 1.5 book:
 //
 //  - No `SET` or `SETQ`.
-//  - No `PROG`. The intepreter, by calling `APPLY`, can evaluate only a single
+//  - No `PROG`. The interpreter, by calling `APPLY`, can evaluate only a single
 //    expression, a possibly recursive function invocation. But this is Lisp, and
 //    that's still a lot.
 //  - No character handling.
