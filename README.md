@@ -17,7 +17,7 @@ It is slow and of course the language is very, _very_ far from Common Lisp or Sc
 
 Although I may add `PROG` and perhaps `SET[Q]` one day, that's about where I'd draw the line. I plan to use this as a teaching tool, not a practical programming environment.
 
-It does do one important thing differently from the book, though: lexical scoping. There is no association list; instead a function has access only to the locals in its own frame, as well globals like `T`.
+It does do one important thing differently from the book, though: lexical scoping. There is no association list; instead a function has access only to the locals in its own frame, as well as globals like `T`.
 
 ### Use
 
