@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD
 // license that can be found in the LICENSE file.
 
-package lisp1_5 // import "robpike.io/lisp/lisp1_5"
+package lisp1_5 // import "github.com/robpike/lisp/lisp1_5"
 
 import (
 	"fmt"
