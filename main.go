@@ -27,7 +27,7 @@
 //
 // It is slow and of course the language is very, very far from Common Lisp or
 // Scheme.
-package main // import "robpike.io/lisp"
+package main // import "github.com/robpike/lisp"
 
 import (
 	"bufio"
@@ -35,7 +35,7 @@ import (
 	"fmt"
 	"os"
 
-	"robpike.io/lisp/lisp1_5"
+	"github.com/robpike/lisp/lisp1_5"
 )
 
 var (
