@@ -9,7 +9,7 @@ func _() {
 	// Re-run the stringer command to generate them again.
 	var x [1]struct{}
 	_ = x[tokenError-0]
-	_ = x[TokenEOF-1]
+	_ = x[tokenEOF-1]
 	_ = x[tokenAtom-2]
 	_ = x[tokenConst-3]
 	_ = x[tokenNumber-4]
@@ -21,9 +21,9 @@ func _() {
 	_ = x[tokenNewline-10]
 }
 
-const _TokType_name = "tokenErrorenEOFtokenAtomtokenConsttokenNumbertokenLpartokenRpartokenDottokenChartokenQuotetokenNewline"
+const _TokType_name = "tokenErrortokenEOFtokenAtomtokenConsttokenNumbertokenLpartokenRpartokenDottokenChartokenQuotetokenNewline"
 
-var _TokType_index = [...]uint8{0, 10, 15, 24, 34, 45, 54, 63, 71, 80, 90, 102}
+var _TokType_index = [...]uint8{0, 10, 18, 27, 37, 48, 57, 66, 74, 83, 93, 105}
 
 func (i TokType) String() string {
 	if i < 0 || i >= TokType(len(_TokType_index)-1) {

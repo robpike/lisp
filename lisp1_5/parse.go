@@ -144,7 +144,7 @@ func (p *Parser) back(tok *token) {
 func (p *Parser) SExpr() *Expr {
 	tok := p.next()
 	switch tok.typ {
-	case TokenEOF:
+	case tokenEOF:
 		return nil
 	case tokenQuote:
 		return p.quote()
@@ -176,7 +176,7 @@ func (p *Parser) quote() *Expr {
 func (p *Parser) List() *Expr {
 	tok := p.next()
 	switch tok.typ {
-	case TokenEOF:
+	case tokenEOF:
 		panic(EOF("eof"))
 	case tokenQuote:
 		return p.quote()

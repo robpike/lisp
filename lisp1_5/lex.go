@@ -19,7 +19,7 @@ type TokType int
 
 const (
 	tokenError TokType = iota
-	TokenEOF
+	tokenEOF
 	tokenAtom
 	tokenConst
 	tokenNumber
@@ -132,7 +132,7 @@ func (l *lexer) next() *token {
 		case r == ';':
 			l.skipToNewline()
 		case r == EofRune:
-			return mkToken(TokenEOF, "EOF")
+			return mkToken(tokenEOF, "EOF")
 		case r == '\n':
 			return mkToken(tokenNewline, "\n")
 		case r == '(':
