@@ -1,6 +1,6 @@
 # Lisp 1.5
 
-To install: `go get robpike.io/lisp`.
+To install: `go install robpike.io/lisp@latest`
 
 This is an implementation of the language defined, with sublime concision, in the first few pages of the LISP 1.5 Programmer's Manual by McCarthy, Abrahams, Edwards, Hart, and Levin, from MIT in 1962.
 
